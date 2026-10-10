@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-10-10T18:42:34.183Z",
+  "node": "v24.11.1",
+  "total": 1204,
+  "matched": 1204,
+  "sequencesMatched": 25,
+  "sequencesTotal": 25,
+  "localLatencyMs": {
+    "p95": 0.22016700000000355,
+    "max": 0.6816249999999968
+  },
+  "excludedSequences": [
+    "06-validacion-corregida",
+    "07-repeticion"
+  ],
+  "excludedRequests": 248,
+  "originalRequestsSent": 0,
+  "sequences": [
+    {
+      "name": "entrada",
+      "matched": 11,
+      "total": 11
+    },
+    {
+      "name": "replay-a",
+      "matched": 21,
+      "total": 21
+    },
+    {
+      "name": "replay-b",
+      "matched": 21,
+      "total": 21
+    },
+    {
+      "name": "bordes",
+      "matched": 23,
+      "total": 23
+    },
+    {
+      "name": "exploracion-01-replay",
+      "matched": 22,
+      "total": 22
+    },
+    {
+      "name": "exploracion-02-estado-1",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "exploracion-02-precedencia-1",
+      "matched": 11,
+      "total": 11
+    },
+    {
+      "name": "exploracion-02-estado-2",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "exploracion-02-precedencia-2",
+      "matched": 11,
+      "total": 11
+    },
+    {
+      "name": "exploracion-02-entrada",
+      "matched": 44,
+      "total": 44
+    },
+    {
+      "name": "exploracion-03-entrada-repetida",
+      "matched": 44,
+      "total": 44
+    },
+    {
+      "name": "exploracion-03-reversa-transfer-1",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "exploracion-03-reversa-transfer-2",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "exploracion-03-control-formato",
+      "matched": 18,
+      "total": 18
+    },
+    {
+      "name": "04-busqueda",
+      "matched": 446,
+      "total": 446
+    },
+    {
+      "name": "05-validacion",
+      "matched": 114,
+      "total": 114
+    },
+    {
+      "name": "08-aislado-control-1",
+      "matched": 124,
+      "total": 124
+    },
+    {
+      "name": "08-aislado-deposito-1",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "08-aislado-precedencia-1",
+      "matched": 11,
+      "total": 11
+    },
+    {
+      "name": "08-aislado-transferencia-1",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "08-aislado-control-2",
+      "matched": 124,
+      "total": 124
+    },
+    {
+      "name": "08-aislado-deposito-2",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "08-aislado-precedencia-2",
+      "matched": 11,
+      "total": 11
+    },
+    {
+      "name": "08-aislado-transferencia-2",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "name": "ejemplos-entregados",
+      "matched": 20,
+      "total": 20
+    }
+  ],
+  "failures": []
+}

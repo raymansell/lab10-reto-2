@@ -1,0 +1,57 @@
+[
+  {
+    "payload": "A",
+    "control": 95,
+    "evidence_id": 387,
+    "response": {
+      "error": "E301",
+      "mensaje": "comando desconocido "
+    }
+  },
+  {
+    "payload": "B",
+    "control": 92,
+    "evidence_id": 480,
+    "response": {
+      "error": "E301",
+      "mensaje": "comando desconocido "
+    }
+  },
+  {
+    "payload": "C",
+    "control": 89,
+    "evidence_id": 570,
+    "response": {
+      "error": "E301",
+      "mensaje": "comando desconocido "
+    }
+  },
+  {
+    "payload": "AA",
+    "control": 65,
+    "evidence_id": 636,
+    "response": {
+      "error": "E301",
+      "mensaje": "comando desconocido ",
+      "sugerencia": "ALTA"
+    }
+  },
+  {
+    "payload": "AB",
+    "control": 62,
+    "evidence_id": 699,
+    "response": {
+      "error": "E301",
+      "mensaje": "comando desconocido "
+    }
+  },
+  {
+    "payload": "BA",
+    "control": 35,
+    "evidence_id": 735,
+    "response": {
+      "error": "E301",
+      "mensaje": "comando desconocido "
+    }
+  }
+]

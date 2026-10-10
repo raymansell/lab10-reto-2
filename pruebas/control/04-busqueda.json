@@ -1,0 +1,3564 @@
+[
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Reset previo a hipótesis de fórmula de control",
+    "path": "/__reset"
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;0"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;1"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;2"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;3"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;4"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;5"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;6"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;7"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;8"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;9"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;10"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;11"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;12"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;13"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;14"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;15"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;16"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;17"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;18"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;19"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;20"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;21"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;22"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;23"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;24"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;25"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;26"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;27"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;28"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;29"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;30"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;31"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;32"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;33"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;34"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;35"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;36"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;37"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;38"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;39"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;40"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;41"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;42"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;43"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;44"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;45"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;46"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;47"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;48"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;49"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;50"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;51"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;52"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;53"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;54"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;55"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;56"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;57"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;58"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;59"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;60"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;61"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;62"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;63"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;64"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;65"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;66"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;67"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;68"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;69"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;70"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;71"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;72"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;73"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;74"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;75"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;76"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;77"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;78"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;79"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;80"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;81"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;82"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;83"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;84"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;85"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;86"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;87"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;88"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;89"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;90"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;91"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;92"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;93"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;94"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'A'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "A;95"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;0"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;1"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;2"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;3"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;4"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;5"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;6"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;7"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;8"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;9"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;10"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;11"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;12"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;13"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;14"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;15"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;16"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;17"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;18"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;19"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;20"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;21"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;22"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;23"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;24"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;25"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;26"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;27"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;28"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;29"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;30"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;31"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;32"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;33"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;34"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;35"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;36"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;37"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;38"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;39"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;40"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;41"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;42"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;43"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;44"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;45"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;46"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;47"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;48"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;49"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;50"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;51"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;52"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;53"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;54"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;55"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;56"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;57"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;58"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;59"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;60"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;61"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;62"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;63"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;64"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;65"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;66"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;67"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;68"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;69"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;70"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;71"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;72"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;73"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;74"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;75"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;76"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;77"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;78"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;79"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;80"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;81"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;82"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;83"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;84"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;85"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;86"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;87"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;88"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;89"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;90"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;91"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'B'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "B;92"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;0"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;1"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;2"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;3"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;4"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;5"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;6"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;7"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;8"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;9"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;10"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;11"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;12"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;13"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;14"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;15"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;16"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;17"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;18"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;19"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;20"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;21"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;22"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;23"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;24"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;25"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;26"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;27"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;28"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;29"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;30"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;31"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;32"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;33"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;34"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;35"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;36"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;37"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;38"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;39"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;40"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;41"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;42"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;43"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;44"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;45"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;46"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;47"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;48"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;49"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;50"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;51"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;52"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;53"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;54"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;55"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;56"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;57"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;58"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;59"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;60"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;61"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;62"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;63"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;64"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;65"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;66"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;67"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;68"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;69"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;70"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;71"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;72"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;73"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;74"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;75"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;76"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;77"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;78"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;79"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;80"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;81"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;82"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;83"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;84"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;85"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;86"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;87"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;88"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'C'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "C;89"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;0"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;1"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;2"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;3"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;4"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;5"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;6"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;7"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;8"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;9"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;10"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;11"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;12"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;13"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;14"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;15"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;16"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;17"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;18"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;19"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;20"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;21"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;22"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;23"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;24"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;25"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;26"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;27"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;28"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;29"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;30"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;31"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;32"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;33"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;34"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;35"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;36"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;37"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;38"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;39"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;40"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;41"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;42"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;43"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;44"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;45"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;46"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;47"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;48"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;49"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;50"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;51"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;52"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;53"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;54"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;55"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;56"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;57"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;58"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;59"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;60"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;61"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;62"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;63"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;64"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AA;65"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;0"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;1"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;2"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;3"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;4"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;5"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;6"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;7"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;8"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;9"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;10"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;11"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;12"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;13"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;14"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;15"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;16"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;17"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;18"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;19"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;20"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;21"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;22"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;23"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;24"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;25"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;26"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;27"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;28"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;29"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;30"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;31"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;32"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;33"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;34"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;35"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;36"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;37"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;38"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;39"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;40"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;41"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;42"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;43"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;44"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;45"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;46"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;47"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;48"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;49"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;50"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;51"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;52"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;53"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;54"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;55"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;56"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;57"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;58"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;59"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;60"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;61"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'AB'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "AB;62"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;0"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;1"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;2"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;3"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;4"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;5"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;6"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;7"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;8"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;9"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;10"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;11"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;12"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;13"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;14"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;15"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;16"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;17"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;18"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;19"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;20"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;21"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;22"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;23"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;24"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;25"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;26"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;27"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;28"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;29"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;30"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;31"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;32"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;33"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;34"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Encontrar control canónico 0..99 para 'BA'; detener al superar integridad",
+    "path": "/msg",
+    "request": {
+      "m": "BA;35"
+    }
+  },
+  {
+    "seq": "04-busqueda",
+    "hipotesis": "Restaurar estado tras hipótesis de control",
+    "path": "/__reset"
+  }
+]

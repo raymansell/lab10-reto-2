@@ -1,0 +1,152 @@
+[
+  {
+    "seq": "exploracion-01-replay",
+    "path": "/__reset",
+    "hipotesis": "Reiniciar antes de comprobar vigencia de los ejemplos"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "PING;64"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 1 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "ALTA;Lucia;83"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 2 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 3 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 4 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 5 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 6 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;40000;86"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 7 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 8 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 9 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 10 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "CONSULTa;AC-0001;14"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 11 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "SALDOS;AC-0001;38"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 12 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 13 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 14 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "CONSULTA;AC-0009;87"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 15 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;50000;23"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 16 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;5X"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 17 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 18 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 19 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "request": {
+      "m": "ALTA;Lucia;Gomez;11"
+    },
+    "hipotesis": "Centinela: comparar ejemplo 20 con versión actual"
+  },
+  {
+    "seq": "exploracion-01-replay",
+    "path": "/__reset",
+    "hipotesis": "Restaurar estado después del replay"
+  }
+]

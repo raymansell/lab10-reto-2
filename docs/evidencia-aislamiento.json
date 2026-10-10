@@ -1,0 +1,86 @@
+{
+  "new_requests": 334,
+  "total_logged": 1432,
+  "first_id": 1099,
+  "last_id": 1432,
+  "started_at_bogota": "2026-10-10T13:26:59.426587-05:00",
+  "ended_at_bogota": "2026-10-10T13:30:05.607213-05:00",
+  "control_checks": 244,
+  "control_failures": 0,
+  "comparisons": [
+    {
+      "group": "control",
+      "exact_response_matches": 124,
+      "total": 124
+    },
+    {
+      "group": "deposito",
+      "exact_response_matches": 16,
+      "total": 16
+    },
+    {
+      "group": "precedencia",
+      "exact_response_matches": 11,
+      "total": 11
+    },
+    {
+      "group": "transferencia",
+      "exact_response_matches": 16,
+      "total": 16
+    }
+  ],
+  "sequences": [
+    {
+      "seq": "08-aislado-control-1",
+      "count": 124,
+      "first_id": 1099,
+      "last_id": 1222
+    },
+    {
+      "seq": "08-aislado-control-2",
+      "count": 124,
+      "first_id": 1266,
+      "last_id": 1389
+    },
+    {
+      "seq": "08-aislado-deposito-1",
+      "count": 16,
+      "first_id": 1223,
+      "last_id": 1238
+    },
+    {
+      "seq": "08-aislado-deposito-2",
+      "count": 16,
+      "first_id": 1390,
+      "last_id": 1405
+    },
+    {
+      "seq": "08-aislado-precedencia-1",
+      "count": 11,
+      "first_id": 1239,
+      "last_id": 1249
+    },
+    {
+      "seq": "08-aislado-precedencia-2",
+      "count": 11,
+      "first_id": 1406,
+      "last_id": 1416
+    },
+    {
+      "seq": "08-aislado-transferencia-1",
+      "count": 16,
+      "first_id": 1250,
+      "last_id": 1265
+    },
+    {
+      "seq": "08-aislado-transferencia-2",
+      "count": 16,
+      "first_id": 1417,
+      "last_id": 1432
+    }
+  ],
+  "infra_responses": 0,
+  "unexpected_account_or_operation_ids": 0,
+  "state_matches_historical_baseline": true,
+  "exclusive_token_confirmed_by_user": true
+}

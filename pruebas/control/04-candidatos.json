@@ -1,0 +1,20 @@
+[
+  {
+    "payload": "A"
+  },
+  {
+    "payload": "B"
+  },
+  {
+    "payload": "C"
+  },
+  {
+    "payload": "AA"
+  },
+  {
+    "payload": "AB"
+  },
+  {
+    "payload": "BA"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "formula": "98 - ((decimal(A/a=1..Z/z=26; ASCII digits unchanged; all other characters ignored) * 100) mod 97)",
+  "normalization": "ASCII filter before uppercase expansion",
+  "new_requests": 808,
+  "total_logged": 1098,
+  "first_id": 291,
+  "last_id": 1098,
+  "started_at_bogota": "2026-10-10T13:08:05.453795-05:00",
+  "ended_at_bogota": "2026-10-10T13:16:36.410864-05:00",
+  "confirmed_valid_cases_per_run": 59,
+  "confirmed_invalid_cases_per_run": 63,
+  "confirmed_runs": 2,
+  "confirmed_checks": 244,
+  "initial_hypothesis_unicode_failures": [
+    806,
+    808,
+    812,
+    840
+  ],
+  "local_tests_passed": 4,
+  "javascript_checks_passed": 244,
+  "infra_responses": 0,
+  "shared_token_confirmed_by_user": true,
+  "state_isolation_claimed": false,
+  "isolated_followup": {
+    "report": "evidencia-aislamiento.json",
+    "control_checks": 244,
+    "control_failures": 0,
+    "exact_response_pairs": 167,
+    "unexpected_ids": 0
+  }
+}

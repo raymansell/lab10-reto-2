@@ -1,0 +1,43 @@
+{
+  "new_requests": 214,
+  "total_logged": 290,
+  "first_evidence_id": 77,
+  "last_evidence_id": 290,
+  "started_at_bogota": "2026-10-10T12:16:19.841258-05:00",
+  "ended_at_bogota": "2026-10-10T12:19:22.844236-05:00",
+  "replay_matched": 20,
+  "replay_total": 20,
+  "repeated_sequences": [
+    {
+      "first": "exploracion-02-estado-1",
+      "second": "exploracion-02-estado-2",
+      "matched": 16,
+      "total": 16
+    },
+    {
+      "first": "exploracion-02-precedencia-1",
+      "second": "exploracion-02-precedencia-2",
+      "matched": 11,
+      "total": 11
+    },
+    {
+      "first": "exploracion-02-entrada",
+      "second": "exploracion-03-entrada-repetida",
+      "matched": 44,
+      "total": 44
+    },
+    {
+      "first": "exploracion-03-reversa-transfer-1",
+      "second": "exploracion-03-reversa-transfer-2",
+      "matched": 16,
+      "total": 16
+    }
+  ],
+  "repeated_control_errors": 7,
+  "control_success_account_ids": [
+    "AC-0001",
+    "AC-0002"
+  ],
+  "infra_responses": 0,
+  "replacement_tested": false
+}

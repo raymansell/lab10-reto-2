@@ -136,3 +136,18 @@ afirmación falsa resta.
   una tendrá su propio estado.
 - Si tu reemplazo no sabe qué responder ante algo, decide qué hace por defecto y anótalo en la
   especificación como **supuesto**.
+
+## Implementación local
+
+La réplica inicial está en `src/` y requiere Node.js 24.11.1, sin dependencias externas:
+
+```sh
+REPLICA_TOKEN=local-demo npm start
+npm test
+```
+
+Escucha en `127.0.0.1:3000`; `HOST` y `PORT` permiten cambiarlo. Para evaluación debe configurarse
+el token del equipo. Las pruebas usan un token local y respuestas guardadas, sin consultar al original.
+
+Ver [ejecución, cobertura y supuestos](docs/06-implementacion-replica.md). El informe de la regresión
+queda en `output/verification/replica-regression.json`; `npm run test:regression` lo regenera.

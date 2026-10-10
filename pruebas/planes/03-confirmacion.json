@@ -1,0 +1,652 @@
+[
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reset antes de matriz del parser",
+    "path": "/__reset"
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING;"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING;XX"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING;XX;XX"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ping;"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING ;0"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": ";0"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;082"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;+82"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;82 "
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia; 82"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;82.0"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "alta;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": " ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia ;82"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA; Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;-1"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;100"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "CONSULTA;ac-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": null
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": true
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": 42
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": "PING;64"
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": []
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {}
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": false
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": []
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": {}
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": "PING;64",
+      "extra": 1
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "GET",
+    "path": "/health?x=1",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "GET",
+    "path": "/health/",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "POST",
+    "path": "/msg?x=1",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "POST",
+    "path": "/msg/",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "PUT",
+    "path": "/msg",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "POST",
+    "path": "/health",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "GET",
+    "path": "/__reset",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/msg",
+    "auth": "none",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/msg",
+    "auth": "invalid",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/no-existe",
+    "auth": "none",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/__reset",
+    "auth": "valid",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/health",
+    "auth": "valid",
+    "method": "GET",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-03-entrada-repetida",
+    "hipotesis": "Restaurar estado después de explorar",
+    "path": "/__reset"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "path": "/__reset",
+    "hipotesis": "Estado inicial para anular transferencia después de gastar en destino"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;40000;86"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;50000;23"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-1",
+    "path": "/__reset",
+    "hipotesis": "Reset después de reversión"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "path": "/__reset",
+    "hipotesis": "Estado inicial para anular transferencia después de gastar en destino"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;40000;86"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;50000;23"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    },
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia"
+  },
+  {
+    "seq": "exploracion-03-reversa-transfer-2",
+    "path": "/__reset",
+    "hipotesis": "Reset después de reversión"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "path": "/__reset",
+    "hipotesis": "Reset antes de formatos adicionales de control"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Mateo;03"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Mateo;003"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Lucia;99"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Lucia;00"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;;82"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA; ;82"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "PING;;XX"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Mateo;03"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Mateo;003"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Lucia;99"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;Lucia;00"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA;;82"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "ALTA; ;82"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "request": {
+      "m": "PING;;XX"
+    },
+    "hipotesis": "Distinguir control de dos dígitos con cero inicial, rango, segmentos vacíos y espacios"
+  },
+  {
+    "seq": "exploracion-03-control-formato",
+    "path": "/__reset",
+    "hipotesis": "Restaurar estado al terminar esta ronda"
+  }
+]

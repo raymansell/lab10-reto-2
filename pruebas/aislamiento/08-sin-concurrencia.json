@@ -1,0 +1,2638 @@
+[
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Reset antes de validar control sin concurrencia",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Bruno;78"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Bruno;79"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Zoe;3"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Zoe;4"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A1;26"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A1;27"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;26"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;27"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;15"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;12"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0003;8"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0003;9"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;12345;96"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;12345;97"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;75;67"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;75;68"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;2345;76"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;2345;77"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;7;19"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;7;20"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0004;63"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0004;64"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;67"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;15"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;12"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "DESCONOCIDO;abc;12;64"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "DESCONOCIDO;abc;12;65"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;Maria;44"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;Maria;45"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "alta;ana;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "alta;ana;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": " AlTa;Ana;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": " AlTa;Ana;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA; Ana ;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA; Ana ;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A.na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A.na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A-na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A-na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A_na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A_na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A/na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A/na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A:na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A:na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A!na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A!na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A@na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A@na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A#na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A#na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\\na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\\na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\tna;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\tna;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;José;61"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;José;62"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Niño;64"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Niño;65"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Müller;33"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Müller;34"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ß;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ß;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ı;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ı;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;İ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;İ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ſ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ſ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;😀;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;😀;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;中文;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;中文;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;١٢;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;١٢;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;１２;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;１２;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "123;20"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "123;21"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "000;98"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "000;99"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "!!!;98"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "!!!;99"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA;52"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA;53"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;26"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;27"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "32;2"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "32;3"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "97;98"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "97;99"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straße;57"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straße;58"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\nna;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\nna;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\rna;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\rna;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ＡＢＣ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ＡＢＣ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ß;44"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ı;38"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ſ;2"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straße;91"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬃ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬃ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬀ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬀ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straẞe;57"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straẞe;58"
+    }
+  },
+  {
+    "seq": "08-aislado-control-1",
+    "hipotesis": "Restaurar estado después de validar control",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Reset antes de anulación de depósito gastado",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Reset antes de precedencia de cuenta, fondos y límite",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Estado inicial para anular transferencia después de gastar en destino",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;40000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;50000;23"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-1",
+    "hipotesis": "Reset después de reversión",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Reset antes de validar control sin concurrencia",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Bruno;78"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Bruno;79"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Zoe;3"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Zoe;4"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A1;26"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A1;27"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;26"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;27"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;15"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;12"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0003;8"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0003;9"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;12345;96"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;12345;97"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;75;67"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;75;68"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;2345;76"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;2345;77"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;7;19"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;7;20"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0004;63"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0004;64"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;67"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;15"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;12"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "DESCONOCIDO;abc;12;64"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "DESCONOCIDO;abc;12;65"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;Maria;44"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Ana;Maria;45"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "alta;ana;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "alta;ana;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": " AlTa;Ana;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": " AlTa;Ana;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA; Ana ;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA; Ana ;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A.na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A.na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A-na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A-na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A_na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A_na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A/na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A/na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A:na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A:na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A!na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A!na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A@na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A@na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A#na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A#na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\\na;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\\na;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\tna;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\tna;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;José;61"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;José;62"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Niño;64"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Niño;65"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Müller;33"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Müller;34"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ß;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ß;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ı;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ı;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;İ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;İ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ſ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ſ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;é;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;😀;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;😀;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;中文;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;中文;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;١٢;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;١٢;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;１２;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;１２;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "123;20"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "123;21"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "000;98"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "000;99"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "!!!;98"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "!!!;99"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA;52"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA;53"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;26"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;27"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "32;2"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "32;3"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "97;98"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "97;99"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straße;57"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straße;58"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;K;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\nna;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\nna;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\rna;50"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;A\rna;51"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Predicción corregida: filtrar ASCII antes de mapear letras; 98-mod97(concatenación+00)",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ＡＢＣ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Contraprueba de control alterado para fórmula con filtro ASCII previo",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ＡＢＣ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ß;44"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ı;38"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ſ;2"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "La fórmula descartada upper-antes-de-filtro debe rechazarse: distinguir el orden de normalización Unicode",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straße;91"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬃ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬃ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬀ;85"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;ﬀ;86"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straẞe;57"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Validar filtro ASCII anterior a expansión Unicode con ligaduras y mayúscula eszett",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Straẞe;58"
+    }
+  },
+  {
+    "seq": "08-aislado-control-2",
+    "hipotesis": "Restaurar estado después de validar control",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Reset antes de anulación de depósito gastado",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-deposito-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Reset antes de precedencia de cuenta, fondos y límite",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "08-aislado-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Estado inicial para anular transferencia después de gastar en destino",
+    "path": "/__reset"
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;40000;86"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "TRANSFER;AC-0002;AC-0001;50000;23"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Medir reversión de transferencia gastada, saldo negativo del destino e idempotencia",
+    "path": "/msg",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "08-aislado-transferencia-2",
+    "hipotesis": "Reset después de reversión",
+    "path": "/__reset"
+  }
+]

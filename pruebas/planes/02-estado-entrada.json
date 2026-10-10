@@ -1,0 +1,684 @@
+[
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Reset antes de anulación de depósito gastado",
+    "path": "/__reset"
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-1",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Reset antes de precedencia de cuenta, fondos y límite",
+    "path": "/__reset"
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-1",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Reset antes de anulación de depósito gastado",
+    "path": "/__reset"
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "DEPOSITO;AC-0002;700;35"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Preparar OP-0003 como depósito y gastar parte de sus fondos",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0002;11"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "exploracion-02-estado-2",
+    "hipotesis": "Medir reversión de depósito gastado, saldo negativo, idempotencia y contador",
+    "request": {
+      "m": "CONSULTA;AC-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Reset antes de precedencia de cuenta, fondos y límite",
+    "path": "/__reset"
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "ANULA;OP-0003;66"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "ALTA;Mateo;3"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "DEPOSITO;AC-0001;250000;86"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;120000;55"
+    }
+  },
+  {
+    "seq": "exploracion-02-precedencia-2",
+    "hipotesis": "Separar validación de cuenta inexistente, límite, saldo y consumo de IDs",
+    "request": {
+      "m": "TRANSFER;AC-0001;AC-0002;100000;12"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reset antes de matriz del parser",
+    "path": "/__reset"
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING;"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING;XX"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING;XX;XX"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ping;"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "PING ;0"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": ";0"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;082"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;+82"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;82 "
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia; 82"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;82.0"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "alta;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": " ALTA;Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia ;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA; Lucia;82"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;-1"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "ALTA;Lucia;100"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Distinguir normalización de comando, argumentos y sintaxis del control",
+    "request": {
+      "m": "CONSULTA;ac-0001;14"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": null
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": true
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": 42
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": "PING;64"
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": []
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {}
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": false
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": []
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": {}
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Clasificar raíces JSON y tipos de m",
+    "request": {
+      "m": "PING;64",
+      "extra": 1
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "GET",
+    "path": "/health?x=1",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "GET",
+    "path": "/health/",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "POST",
+    "path": "/msg?x=1",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "POST",
+    "path": "/msg/",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "PUT",
+    "path": "/msg",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "POST",
+    "path": "/health",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Reconocer método y ruta, query y barra final",
+    "method": "GET",
+    "path": "/__reset",
+    "request": {
+      "m": "PING;64"
+    }
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/msg",
+    "auth": "none",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/msg",
+    "auth": "invalid",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/no-existe",
+    "auth": "none",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/__reset",
+    "auth": "valid",
+    "method": "POST",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Cruzar JSON inválido con auth y rutas especiales",
+    "path": "/health",
+    "auth": "valid",
+    "method": "GET",
+    "raw": "{"
+  },
+  {
+    "seq": "exploracion-02-entrada",
+    "hipotesis": "Restaurar estado después de explorar",
+    "path": "/__reset"
+  }
+]
