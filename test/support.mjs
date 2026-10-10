@@ -24,7 +24,7 @@ export function request(port, testCase = {}) {
   if (Object.hasOwn(testCase, 'raw')) data = Buffer.from(testCase.raw);
   else if (Object.hasOwn(testCase, 'request')) data = Buffer.from(JSON.stringify(testCase.request));
   const headers = { ...testCase.headers };
-  if (testCase.auth !== 'none') headers.Authorization = `Bearer ${testCase.auth === 'invalid' ? 'invalid' : TEST_TOKEN}`;
+  if (testCase.auth !== 'none') headers.Authorization = `Bearer ${testCase.auth === 'invalid' ? 'invalid' : (testCase.token ?? TEST_TOKEN)}`;
   if (data !== undefined) {
     headers['Content-Type'] = testCase.content_type ?? 'application/json';
     headers['Content-Length'] = data.length;

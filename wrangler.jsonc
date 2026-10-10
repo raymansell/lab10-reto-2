@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "caja-negra-replica",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-10-10",
+  "workers_dev": true,
+  "preview_urls": false,
+  "durable_objects": {
+    "bindings": [{ "name": "REPLICA_STATE", "class_name": "ReplicaState" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["ReplicaState"] }]
+}

@@ -11,7 +11,7 @@ function amount(value) {
   return Number.isSafeInteger(parsed) && parsed > 0 ? parsed : null;
 }
 
-export function createEngine() {
+export function createEngine(saved) {
   let accounts;
   let operations;
   let nextAccount;
@@ -25,6 +25,17 @@ export function createEngine() {
     return result(200, { ok: true });
   }
   reset();
+  if (saved) {
+    const copy = structuredClone(saved);
+    accounts = new Map(copy.accounts);
+    operations = new Map(copy.operations);
+    nextAccount = copy.nextAccount;
+    nextOperation = copy.nextOperation;
+  }
+
+  function snapshot() {
+    return structuredClone({ accounts: [...accounts], operations: [...operations], nextAccount, nextOperation });
+  }
 
   function record(operation) {
     const id = `OP-${String(nextOperation++).padStart(4, '0')}`;
@@ -93,5 +104,5 @@ export function createEngine() {
     }
     return record({ type: 'transfer', from: args[0], to: args[1], amount: value });
   }
-  return { dispatch, reset };
+  return { dispatch, reset, snapshot };
 }

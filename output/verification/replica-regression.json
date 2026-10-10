@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-10T18:42:34.183Z",
+  "generatedAt": "2026-10-10T19:10:56.988Z",
   "node": "v24.11.1",
   "total": 1204,
   "matched": 1204,
   "sequencesMatched": 25,
   "sequencesTotal": 25,
   "localLatencyMs": {
-    "p95": 0.22016700000000355,
-    "max": 0.6816249999999968
+    "p95": 0.37179100000000176,
+    "max": 1.2627920000000046
   },
   "excludedSequences": [
     "06-validacion-corregida",

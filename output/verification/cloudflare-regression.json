@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-10-10T19:11:42.574Z",
+  "url": "https://caja-negra-replica.raymansell1.workers.dev",
+  "total": 1204,
+  "matched": 1204,
+  "failures": [],
+  "latencyMs": {
+    "p95": 144.28029199999582,
+    "max": 314.23566700000083
+  },
+  "authenticationChecks": 7,
+  "originalRequestsSent": 0,
+  "finalState": "reset"
+}

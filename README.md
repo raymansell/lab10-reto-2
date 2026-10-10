@@ -1,5 +1,9 @@
 # Reto 2 · La caja negra
 
+**URL de la réplica:** https://caja-negra-replica.raymansell1.workers.dev (requiere el token de evaluación).
+
+El despliegue de la réplica usa Cloudflare Workers y un Durable Object con SQLite. Consulta [la guía de despliegue](docs/07-despliegue-cloudflare.md) para publicar, configurar el secreto de evaluación y verificar la URL pública.
+
 Un servicio lleva 10 años en producción y nadie sabe qué hace. Recibe mensajes por HTTP y responde.
 Tu equipo tiene que entenderlo y construir un reemplazo que responda exactamente igual, errores
 incluidos.
@@ -148,6 +152,12 @@ npm test
 
 Escucha en `127.0.0.1:3000`; `HOST` y `PORT` permiten cambiarlo. Para evaluación debe configurarse
 el token del equipo. Las pruebas usan un token local y respuestas guardadas, sin consultar al original.
+
+`npm start` carga `.env` si existe; ese archivo está excluido de Git. Las variables de la plataforma
+tienen prioridad. En el despliegue, configurar **`REPLICA_TOKEN` como secreto con el token de evaluación**,
+`HOST=0.0.0.0` y el `PORT` asignado por la plataforma, y arrancar con `npm start`. El token de exploración
+solo se usa en los recolectores contra el original, nunca como credencial aceptada por la réplica.
+El valor `local-demo` del ejemplo anterior es exclusivamente para pruebas locales.
 
 Ver [ejecución, cobertura y supuestos](docs/06-implementacion-replica.md). El informe de la regresión
 queda en `output/verification/replica-regression.json`; `npm run test:regression` lo regenera.

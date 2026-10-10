@@ -1,5 +1,7 @@
 # Réplica inicial: ejecución, cobertura y supuestos
 
+La adaptación para producción en Cloudflare, con estado persistente en SQLite y el mismo motor, está descrita en [07-despliegue-cloudflare.md](07-despliegue-cloudflare.md). Los supuestos de transporte y memoria de este documento describen el adaptador Node; la guía 07 precisa las diferencias del Worker.
+
 Implementación local en Node.js 24.11.1, sin dependencias de terceros. El proceso de ejecución solo carga módulos de `src/`: no lee fixtures, no importa los recolectores y no realiza llamadas al original. Los documentos 01–05 conservan el diseño y las observaciones históricas.
 
 ## Ejecutar
@@ -11,7 +13,18 @@ REPLICA_TOKEN=local-demo npm start
 
 Escucha por defecto en `127.0.0.1:3000`. `REPLICA_TOKEN` es obligatorio; para desarrollo se puede elegir un token local. Para evaluación habrá que configurar el token del equipo, que es distinto del token de exploración. `PORT` admite valores de 1 a 65535; `HOST=0.0.0.0` permite escuchar en todas las interfaces al desplegar. Se requiere un solo proceso/instancia para conservar las secuencias en memoria.
 
-También se puede copiar `.env.example` a `.env`, editar sus valores y ejecutar `node --env-file=.env src/main.mjs`. El archivo `.env` está excluido de Git. No hay dependencias que instalar para arrancar o probar; `package-lock.json` registra el paquete sin dependencias y `.nvmrc` fija el runtime utilizado.
+También se puede copiar `.env.example` a `.env`, editar sus valores y ejecutar `npm start`: carga automáticamente ese archivo si existe. El archivo `.env` está excluido de Git y las variables ya definidas en el entorno tienen prioridad. No hay dependencias que instalar para arrancar o probar; `package-lock.json` registra el paquete sin dependencias y `.nvmrc` fija el runtime utilizado.
+
+### Dos credenciales con funciones distintas
+
+| Credencial | Destino | Configuración |
+| --- | --- | --- |
+| Token de exploración personal | Servicio original, mediante los scripts de sondeo | Entrada estándar del recolector. No se incorpora al entorno de ejecución de la réplica. |
+| Token de evaluación del equipo | Réplica: GET /health, POST /msg y POST /__reset | Secreto `REPLICA_TOKEN` en la plataforma; `.env` ignorado para pruebas locales. |
+
+Para desplegar esta versión, crear el secreto **REPLICA_TOKEN** con el token de evaluación proporcionado por el usuario, definir `HOST=0.0.0.0`, conservar el `PORT` que asigne la plataforma y usar `npm start`. No incluir el secreto en el Dockerfile, en archivos de configuración versionados ni en el comando de arranque del despliegue. La aplicación acepta exactamente `Authorization: Bearer <REPLICA_TOKEN>`; con el token personal de exploración, otro valor o sin token devuelve 401 E001 en las tres rutas protegidas. Las rutas desconocidas mantienen su 404 anterior a autenticación.
+
+Si `REPLICA_TOKEN` no está configurado, el servicio no arranca. No hay token integrado ni acceso anónimo de respaldo. `.env` no viaja mediante Git: su configuración local no sustituye crear el secreto en la plataforma. Esta tarea deja la aplicación preparada; todavía no se ha configurado ningún proveedor ni realizado un despliegue.
 
 ```sh
 curl -H 'Authorization: Bearer local-demo' http://127.0.0.1:3000/health
@@ -24,11 +37,13 @@ Las respuestas respectivas son `{"ok":true}`, `{"cuentaId":"AC-0001"}` si se par
 
 ## Verificación realizada
 
-`npm test` ejecuta siete pruebas, incluida la regresión HTTP. **1204/1204 respuestas y 25/25 secuencias coinciden**: 1184 requests históricos seleccionados más los 20 ejemplos entregados. Se comparan status y cuerpo, manteniendo tipos, orden de arrays, espacios y erratas. Se verifica que cada entrada del plan corresponda a su entrada original en el log; cada secuencia arranca con reset.
+`npm test` ejecuta nueve pruebas, incluida la regresión HTTP. **1204/1204 respuestas y 25/25 secuencias coinciden**: 1184 requests históricos seleccionados más los 20 ejemplos entregados. Se comparan status y cuerpo, manteniendo tipos, orden de arrays, espacios y erratas. Se verifica que cada entrada del plan corresponda a su entrada original en el log; cada secuencia arranca con reset.
 
 Se excluyen explícitamente las 248 respuestas de `06-validacion-corregida` y `07-repeticion` porque el token estaba compartido y su estado sufrió interferencias. La validación aislada 08 sí está incluida íntegramente. La secuencia 05 se compara contra sus **respuestas observadas**, incluidas las cuatro predicciones Unicode refutadas, que la réplica también rechaza.
 
 Además se verifican precisión del control con un entero de 10000 dígitos, reset completo, 40 depósitos HTTP concurrentes sin perder actualizaciones, independencia de instancias, token obligatorio y ausencia de mutaciones parciales ante los fallbacks numéricos. Los tests de supuestos comprueban consistencia del reemplazo; no convierten esos supuestos en hechos del original.
+
+Las pruebas de autenticación usan credenciales ficticias distintas para evaluación y exploración: solo la primera autoriza las tres rutas, y una llamada rechazada no borra estado ni consume IDs. También verifican la carga opcional de `.env` y que un secreto suministrado por la plataforma prevalezca sobre el archivo local. Los tokens reales no forman parte de las pruebas versionadas.
 
 El informe reproducible queda en `output/verification/replica-regression.json`. `npm run test:regression` ejecuta solo el comparador y regenera el informe; `npm test` también lo guarda. Ninguna de las dos órdenes consume requests del original. La latencia registrada es exclusivamente de localhost. Este corpus incluye repeticiones y secuencias largas; **no equivale al banco independiente de 100 secuencias ni al set oculto**. No se ha desplegado esta versión.
 

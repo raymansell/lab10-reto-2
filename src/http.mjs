@@ -2,8 +2,8 @@ import { createServer } from 'node:http';
 import { createEngine } from './state.mjs';
 import { error, result } from './responses.mjs';
 
-// S-05: límite local provisional, no medido en el original.
-export const MAX_BODY_BYTES = 1_048_576;
+import { MAX_BODY_BYTES } from './limits.mjs';
+export { MAX_BODY_BYTES } from './limits.mjs';
 
 export function createReplica({ token, maxBodyBytes = MAX_BODY_BYTES } = {}) {
   if (typeof token !== 'string' || !token.length || /[\r\n]/.test(token)) {

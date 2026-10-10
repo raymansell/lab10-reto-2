@@ -5,3 +5,6 @@ __pycache__/
 .env.*
 !.env.example
 coverage/
+.wrangler/
+.dev.vars
+.dev.vars.*
