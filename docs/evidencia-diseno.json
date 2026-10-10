@@ -1,0 +1,18 @@
+{
+  "requests_original": 76,
+  "window_bogota": "10 de octubre de 2026, 11:15:43 a 11:16:56 (America/Bogota)",
+  "replays": [
+    {
+      "seq": "replay-a",
+      "matched": 20,
+      "total": 20
+    },
+    {
+      "seq": "replay-b",
+      "matched": 20,
+      "total": 20
+    }
+  ],
+  "infra_rate_limit": 0,
+  "replacement_tested": false
+}
